@@ -1,0 +1,15 @@
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\bin\Debug\net8.0\Satori.Module.RadzenSample.Shared.Oqtane.deps.json
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\bin\Debug\net8.0\Satori.Module.RadzenSample.Shared.Oqtane.dll
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\bin\Debug\net8.0\Satori.Module.RadzenSample.Shared.Oqtane.pdb
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\bin\Debug\net8.0\Oqtane.Shared.dll
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\bin\Debug\net8.0\Oqtane.Shared.pdb
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\obj\Debug\net8.0\Satori.Module.RadzenSample.Shared.csproj.AssemblyReference.cache
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\obj\Debug\net8.0\Satori.Module.RadzenSample.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\obj\Debug\net8.0\Satori.Module.RadzenSample.Shared.AssemblyInfoInputs.cache
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\obj\Debug\net8.0\Satori.Module.RadzenSample.Shared.AssemblyInfo.cs
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\obj\Debug\net8.0\Satori.Module.RadzenSample.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\obj\Debug\net8.0\Satori.Module.RadzenSample.Shared.csproj.CopyComplete
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\obj\Debug\net8.0\Satori.Module.RadzenSample.Shared.Oqtane.dll
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\obj\Debug\net8.0\refint\Satori.Module.RadzenSample.Shared.Oqtane.dll
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\obj\Debug\net8.0\Satori.Module.RadzenSample.Shared.Oqtane.pdb
+C:\Users\ffonseca\source\repos\Satori.Module.RadzenSample\Shared\obj\Debug\net8.0\ref\Satori.Module.RadzenSample.Shared.Oqtane.dll

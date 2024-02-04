@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Satori.Module.RadzenSample.Server.Oqtane.props" />
+</Project>

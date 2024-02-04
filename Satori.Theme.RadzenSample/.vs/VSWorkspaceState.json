@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Client",
+    "\\Client\\Themes",
+    "\\Client\\wwwroot",
+    "\\Client\\wwwroot\\_content",
+    "\\Client\\wwwroot\\_content\\Radzen.Blazor",
+    "\\Package"
+  ],
+  "SelectedNode": "\\Satori.Theme.RadzenSample.sln",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,143 @@
+@using Satori.Module.RadzenSample.Services
+@using Satori.Module.RadzenSample.Models
+
+@namespace Satori.Module.RadzenSample
+@inherits ModuleBase
+@inject IRadzenSampleService RadzenSampleService
+@inject NavigationManager NavigationManager
+@inject IStringLocalizer<Index> Localizer
+
+@inject DialogService DialogService
+@inject Radzen.NotificationService NotificationService
+@inject TooltipService tooltipService
+@inject ContextMenuService ContextMenuService
+
+<RadzenStack Gap="1rem" Class="rz-p-sm-12">
+    <RadzenButton Text="Right click me" ContextMenu=@(args => ShowContextMenuWithItems(args)) ButtonStyle="ButtonStyle.Secondary" Size="ButtonSize.Large" />
+</RadzenStack>
+
+
+<RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.Center" Class="rz-p-12">
+    <RadzenButton Text="Left" MouseEnter="@(args => ShowTooltip(args, new TooltipOptions(){ Position = TooltipPosition.Left }))" />
+    <RadzenButton Text="Top" MouseEnter="@(args => ShowTooltip(args, new TooltipOptions(){ Position = TooltipPosition.Top }))" />
+    <RadzenButton Text="Bottom" MouseEnter="@(args => ShowTooltip(args, new TooltipOptions(){ Position = TooltipPosition.Bottom }))" />
+    <RadzenButton Text="Right" MouseEnter="@(args => ShowTooltip(args, new TooltipOptions(){ Position = TooltipPosition.Right }))" />
+</RadzenStack>
+
+
+<div class="container-fluid">
+    <div class="row px-3">
+        <div class="col-lg-6 col-xl-4 p-3">
+            <RadzenCard>
+                <RadzenText TextStyle="TextStyle.Subtitle2" TagName="TagName.H3">Info</RadzenText>
+                <RadzenButton Text="Show info notification" class="w-100"
+                              ButtonStyle="ButtonStyle.Info"
+                              Click=@(args => ShowNotification(new NotificationMessage { Severity = NotificationSeverity.Info, Summary = "Info Summary", Detail = "Info Detail", Duration = 4000 })) />
+            </RadzenCard>
+        </div>
+        <div class="col-lg-6 col-xl-4 p-3">
+            <RadzenCard>
+                <RadzenText TextStyle="TextStyle.Subtitle2" TagName="TagName.H3">Warning</RadzenText>
+                <RadzenButton Text="Show warning notification" class="w-100"
+                              ButtonStyle="ButtonStyle.Warning"
+                              Click=@(args => ShowNotification(new NotificationMessage { Severity = NotificationSeverity.Warning, Summary = "Warning Summary", Detail = "Warning Detail", Duration = 4000 })) />
+            </RadzenCard>
+        </div>
+        <div class="col-lg-6 col-xl-4 p-3">
+            <RadzenCard>
+                <RadzenText TextStyle="TextStyle.Subtitle2" TagName="TagName.H3">Error</RadzenText>
+                <RadzenButton Text="Show error notification" class="w-100"
+                              ButtonStyle="ButtonStyle.Danger"
+                              Click=@(args => ShowNotification(new NotificationMessage { Severity = NotificationSeverity.Error, Summary = "Error Summary", Detail = "Error Detail", Duration = 4000 })) />
+            </RadzenCard>
+        </div>
+        <div class="col-lg-6 col-xl-4 p-3">
+            <RadzenCard>
+                <RadzenText TextStyle="TextStyle.Subtitle2" TagName="TagName.H3">Success</RadzenText>
+                <RadzenButton Text="Show success notification" class="w-100"
+                              ButtonStyle="ButtonStyle.Success"
+                              Click=@(args => ShowNotification(new NotificationMessage { Severity = NotificationSeverity.Success, Summary = "Success Summary", Detail = "Success Detail", Duration = 4000 })) />
+            </RadzenCard>
+        </div>
+        <div class="col-lg-6 col-xl-4 p-3">
+            <RadzenCard>
+                <RadzenText TextStyle="TextStyle.Subtitle2" TagName="TagName.H3">Notification with custom position</RadzenText>
+                <RadzenButton Text="Show notification at custom position" class="w-100"
+                              Click=@(args => ShowNotification(new NotificationMessage { Style = "position: absolute; left: -1000px;", Severity = NotificationSeverity.Success, Summary = "Success Summary", Detail = "Success Detail", Duration = 40000 })) />
+            </RadzenCard>
+        </div>
+        <div class="col-lg-6 col-xl-4 p-3">
+            <RadzenCard>
+                <RadzenText TextStyle="TextStyle.Subtitle2" TagName="TagName.H3">Info</RadzenText>
+                <RadzenButton Text="Show notification with custom click handler" class="w-100"
+                              ButtonStyle="ButtonStyle.Info"
+                              Click="@(args => ShowNotification(new NotificationMessage { Severity = NotificationSeverity.Info, Summary = "Info Click Summary", Detail = "Click Me", Duration = 4000, Click=NotificationClick, CloseOnClick = true, Payload = DateTime.Now }))" />
+            </RadzenCard>
+        </div>
+        <div class="col-lg-6 col-xl-4 p-3">
+            <RadzenCard>
+                <RadzenText TextStyle="TextStyle.Subtitle2" TagName="TagName.H3">Notification with custom content</RadzenText>
+                <RadzenButton Text="Show notification with custom content" class="w-100"
+                              ButtonStyle="ButtonStyle.Info"
+                              Click="@(args => ShowNotificationWithCustomContent())" />
+            </RadzenCard>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="rz-p-12 rz-text-align-center">
+    <RadzenButton Text="Confirm dialog" ButtonStyle="ButtonStyle.Secondary"
+                  Click=@(args => DialogService.Confirm("Are you sure?", "MyTitle", new ConfirmOptions() { OkButtonText = "Yes", CancelButtonText = "No" })) />
+</div>
+
+
+@code {
+
+    protected override async Task OnInitializedAsync()
+    {
+    }
+
+    void ShowContextMenuWithItems(MouseEventArgs args)
+    {
+        ContextMenuService.Open(args,
+            new List<ContextMenuItem> {
+                new ContextMenuItem(){ Text = "Context menu item 1", Value = 1, Icon = "home" },
+                new ContextMenuItem(){ Text = "Context menu item 2", Value = 2, Icon = "search", Disabled = true },
+                new ContextMenuItem(){ Text = "Context menu item 3", Value = 3, Icon = "info" },
+             }, OnMenuItemClick);
+    }
+
+    void OnMenuItemClick(MenuItemEventArgs args)
+    {
+        if (!args.Value.Equals(3) && !args.Value.Equals(4))
+        {
+            ContextMenuService.Close();
+        }
+    }
+
+    void ShowTooltip(ElementReference elementReference, TooltipOptions options = null) => tooltipService.Open(elementReference, "Some content", options);
+
+    void ShowNotification(NotificationMessage message)
+    {
+        NotificationService.Notify(message);
+
+    }
+
+    void NotificationClick(NotificationMessage message)
+    {
+    }
+
+    void ShowNotificationWithCustomContent()
+    {
+        NotificationService.Notify(new NotificationMessage
+            {
+                Severity = NotificationSeverity.Warning,
+                Duration = 40000,
+                SummaryContent = ns =>@<RadzenText TextStyle="TextStyle.H6">Custom summary: <br /> @DateTime.Now</RadzenText>,
+        DetailContent = ns => @<RadzenButton Text="Clear" Click="@(args => ns.Messages.Clear())" />
+        });
+    }
+
+}

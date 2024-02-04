@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ffonseca\\source\\repos\\Satori.Theme.RadzenSample\\Client\\wwwroot\\Themes\\Satori.Theme.RadzenSample\\Theme.css",
+      "PackagePath": "staticwebassets\\Themes\\Satori.Theme.RadzenSample\\Theme.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Satori.Theme.RadzenSample.Client.Oqtane.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Satori.Theme.RadzenSample.Client.Oqtane.props",
+      "PackagePath": "build\\Satori.Theme.RadzenSample.Client.Oqtane.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Satori.Theme.RadzenSample.Client.Oqtane.props",
+      "PackagePath": "buildMultiTargeting\\Satori.Theme.RadzenSample.Client.Oqtane.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Satori.Theme.RadzenSample.Client.Oqtane.props",
+      "PackagePath": "buildTransitive\\Satori.Theme.RadzenSample.Client.Oqtane.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

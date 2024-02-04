@@ -1,0 +1,325 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Package\\Satori.Module.RadzenSample.Package.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Client\\Satori.Module.RadzenSample.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Client\\Satori.Module.RadzenSample.Client.csproj",
+        "projectName": "Satori.Module.RadzenSample.Client.Oqtane",
+        "projectPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Client\\Satori.Module.RadzenSample.Client.csproj",
+        "packagesPath": "C:\\Users\\ffonseca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ffonseca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\Satori.Module.RadzenSample.Shared.csproj": {
+                "projectPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\Satori.Module.RadzenSample.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Localization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[4.24.5, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Package\\Satori.Module.RadzenSample.Package.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Package\\Satori.Module.RadzenSample.Package.csproj",
+        "projectName": "Satori.Module.RadzenSample.Package",
+        "projectPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Package\\Satori.Module.RadzenSample.Package.csproj",
+        "packagesPath": "C:\\Users\\ffonseca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Package\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ffonseca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Client\\Satori.Module.RadzenSample.Client.csproj": {
+                "projectPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Client\\Satori.Module.RadzenSample.Client.csproj"
+              },
+              "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Server\\Satori.Module.RadzenSample.Server.csproj": {
+                "projectPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Server\\Satori.Module.RadzenSample.Server.csproj"
+              },
+              "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\Satori.Module.RadzenSample.Shared.csproj": {
+                "projectPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\Satori.Module.RadzenSample.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Server\\Satori.Module.RadzenSample.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Server\\Satori.Module.RadzenSample.Server.csproj",
+        "projectName": "Satori.Module.RadzenSample.Server.Oqtane",
+        "projectPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Server\\Satori.Module.RadzenSample.Server.csproj",
+        "packagesPath": "C:\\Users\\ffonseca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ffonseca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\Satori.Module.RadzenSample.Shared.csproj": {
+                "projectPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\Satori.Module.RadzenSample.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[4.24.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\Satori.Module.RadzenSample.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\Satori.Module.RadzenSample.Shared.csproj",
+        "projectName": "Satori.Module.RadzenSample.Shared.Oqtane",
+        "projectPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\Satori.Module.RadzenSample.Shared.csproj",
+        "packagesPath": "C:\\Users\\ffonseca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ffonseca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
