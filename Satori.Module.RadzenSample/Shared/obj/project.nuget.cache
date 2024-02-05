@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+PRkAVP4C0Ckl7kMBH8YBRjjbnM0hw4oJdmI++YKYz70nA7pw63c8key7r9ErwQLmfgDn4GTdfBv9gCYE9tQDg==",
+  "dgSpecHash": "9N2fCcZ2WLFmODEjibyRk23i/VySLNalYFhChfH3ka0ce85UldtFK72Un5a+C029zYu4iR5GbWFmVrid98XSPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\Satori.Module.RadzenSample.Shared.csproj",
+  "projectFilePath": "/Users/fabiano/Library/CloudStorage/OneDrive-Personal/Documents/Developer/CSharp/repos/SatoriRadzenSamples/Satori.Module.RadzenSample/Shared/Satori.Module.RadzenSample.Shared.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ffonseca\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "/Users/fabiano/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

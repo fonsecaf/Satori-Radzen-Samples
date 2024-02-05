@@ -115,32 +115,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ffonseca\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/fabiano/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\Satori.Module.RadzenSample.Shared.csproj",
+      "projectUniqueName": "/Users/fabiano/Library/CloudStorage/OneDrive-Personal/Documents/Developer/CSharp/repos/SatoriRadzenSamples/Satori.Module.RadzenSample/Shared/Satori.Module.RadzenSample.Shared.csproj",
       "projectName": "Satori.Module.RadzenSample.Shared.Oqtane",
-      "projectPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\Satori.Module.RadzenSample.Shared.csproj",
-      "packagesPath": "C:\\Users\\ffonseca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ffonseca\\source\\repos\\Satori.Module.RadzenSample\\Shared\\obj\\",
+      "projectPath": "/Users/fabiano/Library/CloudStorage/OneDrive-Personal/Documents/Developer/CSharp/repos/SatoriRadzenSamples/Satori.Module.RadzenSample/Shared/Satori.Module.RadzenSample.Shared.csproj",
+      "packagesPath": "/Users/fabiano/.nuget/packages/",
+      "outputPath": "/Users/fabiano/Library/CloudStorage/OneDrive-Personal/Documents/Developer/CSharp/repos/SatoriRadzenSamples/Satori.Module.RadzenSample/Shared/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ffonseca\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/fabiano/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -180,7 +172,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
