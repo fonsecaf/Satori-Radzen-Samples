@@ -22,8 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Oqtane.Client"><HintPath>..\..\Oqtane-Framework-5.0.1\Oqtane.Server\bin\Debug\net8.0\Oqtane.Client.dll</HintPath></Reference>
-    <Reference Include="Oqtane.Shared"><HintPath>..\..\Oqtane-Framework-5.0.1\Oqtane.Server\bin\Debug\net8.0\Oqtane.Shared.dll</HintPath></Reference>
+    <Reference Include="Oqtane.Client"><HintPath>..\..\..\Oqtane-Framework-5.0.1\Oqtane.Server\bin\Debug\net8.0\Oqtane.Client.dll</HintPath></Reference>
+    <Reference Include="Oqtane.Shared"><HintPath>..\..\..\Oqtane-Framework-5.0.1\Oqtane.Server\bin\Debug\net8.0\Oqtane.Shared.dll</HintPath></Reference>
   </ItemGroup>
 
   <ItemGroup>
